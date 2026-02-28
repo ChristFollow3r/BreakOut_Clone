@@ -8,6 +8,8 @@ TagManager:
   - Right
   - Top
   - Thing
+  - Celling
+  - Side
   layers:
   - Default
   - TransparentFX
