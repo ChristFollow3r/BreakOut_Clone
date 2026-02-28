@@ -45,8 +45,12 @@ public class thingMovement : MonoBehaviour
 
     private void CheckCollision()
     {
-        RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, 0.5f);
-        RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, 0.5f);
+        RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, 0.5f); // This shoots a ray towards the left of the thing
+        RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, 0.5f); // This shoots a ray towards the right of the thing
+
+        // The ray length is a magic number. I genually have no clue where the rays start fire from but this works
+        // If i wanted to I could check it with Debug.DrawRay or something like that
+        // This basically acts as a collider. The only difference is that this wont allow the thing to clip through the ball.
 
         if (lHit) thing.transform.position = safePosition;
         if (rHit) thing.transform.position = safePosition;
