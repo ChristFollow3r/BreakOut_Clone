@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8617588001157848880}
   - component: {fileID: 6109997542951533871}
   - component: {fileID: 6688984736181677672}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fvBrick
   m_TagString: Top
   m_Icon: {fileID: 0}

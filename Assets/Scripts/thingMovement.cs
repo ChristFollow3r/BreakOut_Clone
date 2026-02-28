@@ -1,23 +1,19 @@
 using UnityEngine;
-using UnityEngine.Windows;
 
 public class thingMovement : MonoBehaviour
 {
     [SerializeField] private GameObject thing;
 
-    private Collider2D collider;
     private InputSystem_Actions actions;
 
     private Vector2 movement;
 
-    private float thingSpeed = 14f;
-    private float thingSize;
+    public float thingSpeed = 14f;
+    public float thingSize;
 
     private Vector2 safePosition;
     private void Start()
     {
-        // This gets the collider2D component atached to the same object that has this script atached to
-        collider = GetComponent<Collider2D>();
         // I dont know how to explain this but it's pretty self explanatory
         actions = new InputSystem_Actions();
         // This enables it
@@ -35,7 +31,7 @@ public class thingMovement : MonoBehaviour
     {
         // Reads the value of the input
         movement = actions.Player.Move.ReadValue<Vector2>();
-        Debug.Log(movement);
+        //Debug.Log(movement);
 
         // Moves the thing
         if (movement.x > 0) thing.transform.position += new Vector3(movement.x * thingSpeed * Time.deltaTime, 0);

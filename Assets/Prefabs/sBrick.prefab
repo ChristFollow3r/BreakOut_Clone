@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8762948949433293064}
   - component: {fileID: 3848096225575103734}
   - component: {fileID: -518109832273017860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sBrick
   m_TagString: Top
   m_Icon: {fileID: 0}
@@ -147,5 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ccb49dd145038e4f8f92d5b38cbeee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brick: {fileID: 0}
   lives: 2

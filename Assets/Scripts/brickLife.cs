@@ -3,6 +3,7 @@ using UnityEngine;
 public class brickLife : MonoBehaviour
 {
     [SerializeField] public int lives;
+
     private SpriteRenderer sprite;
     private BoxCollider2D colldier;
 

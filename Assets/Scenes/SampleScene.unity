@@ -2249,6 +2249,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thing: {fileID: 331550845}
+  thingSpeed: 14
+  thingSize: 0
 --- !u!212 &331550847
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7508,6 +7510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91b1333bc34f1314c8897b65d6001f61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thing: {fileID: 331550845}
   ball: {fileID: 1068152645}
 --- !u!58 &1068152644
 CircleCollider2D:
