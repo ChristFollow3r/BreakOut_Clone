@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2832099747152904846}
   - component: {fileID: 2696461762885828487}
   - component: {fileID: 2135250259198856772}
+  - component: {fileID: 5134192037567689446}
   m_Layer: 0
   m_Name: ftBrick
   m_TagString: Top
@@ -134,3 +135,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5134192037567689446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675329340457361613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccb49dd145038e4f8f92d5b38cbeee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 4

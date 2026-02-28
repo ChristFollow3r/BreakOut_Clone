@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ballMovement : MonoBehaviour
@@ -19,5 +20,11 @@ public class ballMovement : MonoBehaviour
         else if (collision.CompareTag("Left")) ball.linearVelocity *= new Vector2(-1, 1);
         else if (collision.CompareTag("Top")) ball.linearVelocity *= new Vector2(1, -1);
         else if (collision.CompareTag("Thing")) ball.linearVelocity *= new Vector2(1, -1);
+
+        if (collision.gameObject.GetComponent<brickLife>())
+        {
+            collision.gameObject.GetComponent<brickLife>().lives--;
+            Debug.Log("Hit");
+        }
     }
 }
