@@ -19,7 +19,7 @@ public class thingMovement : MonoBehaviour
     /// <summary>
     /// This is a decimal number
     /// </summary>
-    private float thingSpeed = 7f;
+    private float thingSpeed = 14f;
     /// <summary>
     /// This is also a decimal number
     /// </summary>
@@ -41,9 +41,11 @@ public class thingMovement : MonoBehaviour
 
     private void ThingMovement()
     {
+        // Reads the value of the input
         movement = actions.Player.Move.ReadValue<Vector2>();
         Debug.Log(movement);
 
+        // Moves the thing
         if (movement.x > 0) thing.transform.position += new Vector3(movement.x * thingSpeed * Time.deltaTime, 0);
         else if (movement.x < 0) thing.transform.position += new Vector3(movement.x * thingSpeed * Time.deltaTime, 0);
 
