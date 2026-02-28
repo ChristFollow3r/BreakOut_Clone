@@ -4,26 +4,16 @@ using UnityEngine.Windows;
 public class thingMovement : MonoBehaviour
 {
     [SerializeField] private GameObject thing;
-    /// <summary>
-    /// This is a collider
-    /// </summary>
+
     private Collider2D collider;
-    /// <summary>
-    /// This is a reference to the input system action map or something like that
-    /// </summary>
     private InputSystem_Actions actions;
-    /// <summary>
-    /// This is a vector 2
-    /// </summary>
+
     private Vector2 movement;
-    /// <summary>
-    /// This is a decimal number
-    /// </summary>
+
     private float thingSpeed = 14f;
-    /// <summary>
-    /// This is also a decimal number
-    /// </summary>
     private float thingSize;
+
+    private Vector2 safePosition;
     private void Start()
     {
         // This gets the collider2D component atached to the same object that has this script atached to
@@ -36,7 +26,9 @@ public class thingMovement : MonoBehaviour
 
     private void Update()
     {
+        safePosition = thing.transform.position;
         ThingMovement();
+        CheckCollision();
     }
 
     private void ThingMovement()
@@ -49,6 +41,15 @@ public class thingMovement : MonoBehaviour
         if (movement.x > 0) thing.transform.position += new Vector3(movement.x * thingSpeed * Time.deltaTime, 0);
         else if (movement.x < 0) thing.transform.position += new Vector3(movement.x * thingSpeed * Time.deltaTime, 0);
 
+    }
+
+    private void CheckCollision()
+    {
+        RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, 0.5f);
+        RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, 0.5f);
+
+        if (lHit) thing.transform.position = safePosition;
+        if (rHit) thing.transform.position = safePosition;
     }
 
     
