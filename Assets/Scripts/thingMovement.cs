@@ -26,7 +26,7 @@ public class thingMovement : MonoBehaviour
 
     private void Update()
     {
-        safePosition = thing.transform.position;
+        safePosition = thing.transform.position; // Stores a safe position to use whenever the raycast hits.
         ThingMovement();
         CheckCollision();
     }
