@@ -6,6 +6,8 @@ public class ballMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D ball;
 
     private float ballSpeed = 1.2f;
+    private float sizeDecrese = 0.2f;
+    private Vector3 newScale;
 
     private bool layer2 = true;
     private bool layer3 = true;
@@ -16,6 +18,7 @@ public class ballMovement : MonoBehaviour
     {
         float num1 = Random.Range(3, 5);
         float num2 = Random.Range(3, 5);
+        newScale = thing.transform.localScale;
 
         ball.linearVelocity = new Vector2(num1, num2);
     }
@@ -37,6 +40,8 @@ public class ballMovement : MonoBehaviour
         {
             ball.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.5f;
+            newScale.x -= sizeDecrese;
+            thing.transform.localScale += newScale;
             layer2 = false;
         }
 
@@ -44,18 +49,24 @@ public class ballMovement : MonoBehaviour
         {
             ball.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.5f;
+            newScale.x -= sizeDecrese;
+            thing.transform.localScale += newScale;
             layer3 = false;
         }
         else if (collision.gameObject.layer == 9 && layer4)
         {
             ball.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.5f;
+            newScale.x -= sizeDecrese;
+            thing.transform.localScale += newScale;
             layer4 = false;
         }
         else if (collision.gameObject.layer == 10 && layer5)
         {
             ball.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.5f;
+            newScale.x -= sizeDecrese;
+            thing.transform.localScale += newScale;
             layer5 = false;
         }
     }
