@@ -41,8 +41,9 @@ public class thingMovement : MonoBehaviour
 
     private void CheckCollision()
     {
-        RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, 0.75f); // This shoots a ray towards the left of the thing
-        RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, 0.75f); // This shoots a ray towards the right of the thing
+        float rayLength = thing.transform.localScale.x / 2;
+        RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, rayLength); // This shoots a ray towards the left of the thing
+        RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, rayLength); // This shoots a ray towards the right of the thing
 
         // The ray length is a magic number. I genually have no clue where the rays start fire from but this works
         // If i wanted to I could check it with Debug.DrawRay or something like that
