@@ -1,16 +1,17 @@
 using UnityEngine;
 
-public class duplicateAllBalls : MonoBehaviour
+public class shotgunUpgrade : MonoBehaviour
 {
     [SerializeField] private GameObject ball;
-    //private GameObject ballManager; // I'm not using this?
+    private GameObject thing;
+    //private GameObject ballManager;
     private GameObject UIManager;
-    private GameObject[] balls;
 
     private void Start()
     {
         //ballManager = GameObject.Find("BallManager");
         UIManager = GameObject.Find("UIManager");
+        thing = GameObject.Find("Thing");
         Debug.Log("One spawned");
         Destroy(gameObject, 5f);
     }
@@ -18,15 +19,14 @@ public class duplicateAllBalls : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Thing"))
         {
-            balls = GameObject.FindGameObjectsWithTag("Ball");
-            foreach (GameObject x in balls)
+            for (int i = 0; i < 3; i++)
             {
-                GameObject newBall = Instantiate(ball, new Vector3(Random.Range(-5, 5), Random.Range(-1, -4), 0), Quaternion.identity);
+                GameObject newBall = Instantiate(ball, new Vector3(thing.transform.position.x, thing.transform.position.y + 0.3f, 0), Quaternion.identity); // + 0.3 so it doesnt spawn right where the thing is
                 newBall.GetComponent<ballMovement>().isFromUpgrade = true; // This is crucial so that when this balls die then don't spawn new balls
                 UIManager.GetComponent<UI_Script>().AddPoints();
                 UIManager.GetComponent<UI_Script>().AddLives();
-                Debug.Log("Found a ball");
             }
+
             Destroy(gameObject);
         }
 

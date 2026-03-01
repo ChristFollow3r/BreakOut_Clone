@@ -67,7 +67,9 @@ public class ballMovement : MonoBehaviour
             //Debug.Log(collision.gameObject.GetComponent<brickLife>().lives--);
         }
 
-        if (collision.gameObject.layer == 7 && layer2)
+        if (collision.gameObject.GetComponent<ballMovement>() == null) return;
+
+        if (collision.gameObject.layer == 7 && layer2 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true) // Some serious trauma
         {
             rb.linearVelocity *= ballSpeed;
             thing.transform.localScale = newScale;
@@ -75,21 +77,21 @@ public class ballMovement : MonoBehaviour
             layer2 = false;
         }
 
-        else if (collision.gameObject.layer == 8 && layer3)
+        else if (collision.gameObject.layer == 8 && layer3 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
         {
             rb.linearVelocity *= ballSpeed;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
             layer3 = false;
         }
-        else if (collision.gameObject.layer == 9 && layer4)
+        else if (collision.gameObject.layer == 9 && layer4 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
         {
             rb.linearVelocity *= ballSpeed;
             newScale.x -= sizeDecrese;
             thing.transform.localScale = newScale;
             layer4 = false;
         }
-        else if (collision.gameObject.layer == 10 && layer5)
+        else if (collision.gameObject.layer == 10 && layer5 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
         {
             rb.linearVelocity *= ballSpeed;
             thing.transform.localScale = newScale;

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2136411115554169162}
   - component: {fileID: 3417684962102577216}
   - component: {fileID: 2679357466124619701}
+  - component: {fileID: 7882055086341837813}
   m_Layer: 0
   m_Name: ShotgunUpgrade
   m_TagString: shotgunUpgrade
@@ -166,3 +167,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &7882055086341837813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7430068243880253127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b63da2f39110849bc6ed2a1d6160eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1623538499454628888, guid: d6f0d7383d831bb4a887b3b60d2e82be, type: 3}

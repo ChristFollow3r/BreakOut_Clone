@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,6 +8,8 @@ public class UI_Script : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lives;
+
+    private GameObject[] balls;
     private GameObject thing;
 
     private int currentLives = 3;
@@ -20,10 +23,15 @@ public class UI_Script : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (currentLives <= 0) {
+        if (currentLives <= 0 && balls.Length == 0) {
             SceneManager.LoadScene("Menu");
             thing.GetComponent<thingMovement>().actions.Disable();
         }
+    }
+
+    private void Update()
+    {
+        balls = GameObject.FindGameObjectsWithTag("Ball");
     }
 
     public void AddPoints() 
