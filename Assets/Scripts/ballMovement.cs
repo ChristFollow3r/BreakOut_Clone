@@ -3,7 +3,10 @@ using UnityEngine;
 public class ballMovement : MonoBehaviour
 {
     [SerializeField] private GameObject thing;
+    [SerializeField] private GameObject wholeBall;
     [SerializeField] private Rigidbody2D ball;
+
+    [SerializeField] private GameObject UIManager;
 
     private float ballSpeed = 1.3f;
     private float sizeDecrese = 0.2f;
@@ -22,6 +25,15 @@ public class ballMovement : MonoBehaviour
         newScale -= new Vector3(sizeDecrese,0,0);
 
         ball.linearVelocity = new Vector2(num1, num2);
+    }
+
+    private void Update()
+    {
+        if (ball.transform.position.y < -7f)
+        {
+            UIManager.GetComponent<UI_Script>().canSubtract = true;
+            Destroy(wholeBall); // This should desttroy the script 
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

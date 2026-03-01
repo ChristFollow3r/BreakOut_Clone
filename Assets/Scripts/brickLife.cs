@@ -8,7 +8,6 @@ public class brickLife : MonoBehaviour
     private SpriteRenderer sprite;
     private BoxCollider2D colldier;
 
-
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
