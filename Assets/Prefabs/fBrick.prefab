@@ -149,4 +149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 1
   UIManager: {fileID: 0}
-  upgrade: {fileID: 45267692214566464, guid: 5c71af2e23a796246a1cd1b8c51834d5, type: 3}
+  sBallUpgrade: {fileID: 45267692214566464, guid: 5c71af2e23a796246a1cd1b8c51834d5, type: 3}
+  plnetyBallsUpgrade: {fileID: 2227580983432485732, guid: 6f0eaa6861207d44c9e319c3ea5e2378, type: 3}
+  shotgunUpgrade: {fileID: 7430068243880253127, guid: d9fc5532512dde8419300c6b7e4723bc, type: 3}

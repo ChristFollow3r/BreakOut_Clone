@@ -12,6 +12,9 @@ TagManager:
   - tLeft
   - tRight
   - ballUpgrade
+  - duplicateUpgrade
+  - shotgunUpgrade
+  - Ball
   layers:
   - Default
   - TransparentFX
