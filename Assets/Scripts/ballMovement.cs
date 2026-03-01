@@ -39,6 +39,7 @@ public class ballMovement : MonoBehaviour
         {
             UIManager.GetComponent<UI_Script>().SubtractLives();
             BallManager.GetComponent<BallManager>().canSpawn = true;
+            thing.transform.localScale = new Vector3(1.5f, 0.2f, 0f);
             Destroy(gameObject); // This should desttroy the script 
         }
     }
@@ -64,7 +65,6 @@ public class ballMovement : MonoBehaviour
         if (collision.gameObject.layer == 7 && layer2)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
             layer2 = false;
@@ -73,7 +73,6 @@ public class ballMovement : MonoBehaviour
         else if (collision.gameObject.layer == 8 && layer3)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
             layer3 = false;
@@ -81,7 +80,6 @@ public class ballMovement : MonoBehaviour
         else if (collision.gameObject.layer == 9 && layer4)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             newScale.x -= sizeDecrese;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
@@ -90,7 +88,6 @@ public class ballMovement : MonoBehaviour
         else if (collision.gameObject.layer == 10 && layer5)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
             layer5 = false;

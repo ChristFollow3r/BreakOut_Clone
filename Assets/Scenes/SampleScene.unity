@@ -1586,8 +1586,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &227463545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2155,8 +2153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &314405839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2524,7 +2520,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04, y: -4.46, z: 0}
-  m_LocalScale: {x: 1.5, y: 0.2, z: 1}
+  m_LocalScale: {x: 1.5, y: 0.2, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1168354882}
@@ -3134,8 +3130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &448501445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6059,8 +6053,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &924135866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
@@ -6080,8 +6072,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &950433907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6829,8 +6819,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &1031074731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
@@ -6989,8 +6977,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1041631890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7078,8 +7064,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1059278920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7299,8 +7283,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1097897695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7525,8 +7507,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1120350909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7687,8 +7667,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &1168354881
 GameObject:
   m_ObjectHideFlags: 0
@@ -7930,8 +7908,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1239956332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8156,8 +8132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1264562188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8441,8 +8415,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1287064194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8528,8 +8500,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1293474183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8888,8 +8858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1332195647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8975,8 +8943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1391820162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9130,8 +9096,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1404073214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9361,8 +9325,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1435297590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9851,8 +9813,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &1512610234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
@@ -9872,8 +9832,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1514943255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10027,8 +9985,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &1527799837
 GameObject:
   m_ObjectHideFlags: 0
@@ -10646,8 +10602,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1645911815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11713,8 +11667,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1 &1822637662
 GameObject:
   m_ObjectHideFlags: 0
@@ -11929,8 +11881,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1876960607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12016,8 +11966,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1900871395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12169,8 +12117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1923299219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12256,8 +12202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &1938430389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12355,8 +12299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 273988836}
-  canAdd: 1
-  canSubtract: 0
 --- !u!4 &1950002001
 Transform:
   m_ObjectHideFlags: 0
@@ -12457,8 +12399,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &2022839856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12808,8 +12748,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &2124080117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12895,8 +12833,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &2136479080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13157,8 +13093,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 629410736}
   lives: {fileID: 0}
-  canAdd: 1
-  canSubtract: 0
 --- !u!1001 &6164882026321121937
 PrefabInstance:
   m_ObjectHideFlags: 0
