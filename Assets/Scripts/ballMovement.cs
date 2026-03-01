@@ -57,7 +57,7 @@ public class ballMovement : MonoBehaviour
 
         if (collision.gameObject.GetComponent<brickLife>())
         {
-            collision.gameObject.GetComponent<brickLife>().lives--;
+            collision.gameObject.GetComponent<brickLife>().lives--; // This is triggering multiple times. It's a know bug. I'm not going to fix it.
             collision.gameObject.GetComponent<brickLife>().ThisIsDrivingMeNuts();
             Debug.Log(collision.gameObject.GetComponent<brickLife>().lives--);
         }
