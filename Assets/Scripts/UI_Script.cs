@@ -1,4 +1,3 @@
-using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -8,31 +7,20 @@ public class UI_Script : MonoBehaviour
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lives;
 
-    public bool canAdd = false;
-    public bool canSubtract = false;
 
     private int currentLives = 3;
     private int currentScore = 0;
     private int scoreAddition = 5;
 
-    public void Update()
+    public void AddPoints() 
     {
-        if (canAdd) StartCoroutine(CRAddPoints());
-        if (canSubtract) StartCoroutine(CRSubtractLives());
-    }
-    public IEnumerator CRAddPoints() // I know this coroutines are pretty unnecessary but this is in the exam so I might as well do it
-    {
-        canAdd = false;
         currentScore += scoreAddition;
         score.text = currentScore.ToString();
-        yield return null;
     }
-    public IEnumerator CRSubtractLives()
+    public void SubtractLives()
     {
-        canSubtract = false;
         currentLives -= 1;
         lives.text = currentLives.ToString();
-        yield return null;
     }
     
 

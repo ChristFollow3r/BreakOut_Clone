@@ -11,6 +11,7 @@ TagManager:
   - Middle
   - tLeft
   - tRight
+  - ballUpgrade
   layers:
   - Default
   - TransparentFX

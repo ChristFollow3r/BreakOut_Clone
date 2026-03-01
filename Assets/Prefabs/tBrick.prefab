@@ -148,3 +148,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 3
+  UIManager: {fileID: 0}
+  upgrade: {fileID: 45267692214566464, guid: 5c71af2e23a796246a1cd1b8c51834d5, type: 3}

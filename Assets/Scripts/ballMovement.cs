@@ -37,7 +37,7 @@ public class ballMovement : MonoBehaviour
     {
         if (rb.transform.position.y < -7f)
         {
-            UIManager.GetComponent<UI_Script>().canSubtract = true;
+            UIManager.GetComponent<UI_Script>().SubtractLives();
             BallManager.GetComponent<BallManager>().canSpawn = true;
             Destroy(gameObject); // This should desttroy the script 
         }
@@ -57,7 +57,8 @@ public class ballMovement : MonoBehaviour
         if (collision.gameObject.GetComponent<brickLife>())
         {
             collision.gameObject.GetComponent<brickLife>().lives--;
-            Debug.Log("Hit");
+            collision.gameObject.GetComponent<brickLife>().ThisIsDrivingMeNuts();
+            Debug.Log(collision.gameObject.GetComponent<brickLife>().lives--);
         }
 
         if (collision.gameObject.layer == 7 && layer2)
