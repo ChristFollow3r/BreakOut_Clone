@@ -23,7 +23,7 @@ public class UI_Script : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (currentLives <= 0 && balls.Length == 0) {
+        if (currentLives <= 0 && balls.Length == 0) { // Super dirty solution. I have no fucking clue how to fix the lives counter problem.
             SceneManager.LoadScene("Menu");
             thing.GetComponent<thingMovement>().actions.Disable();
         }
