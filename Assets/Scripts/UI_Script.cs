@@ -12,6 +12,11 @@ public class UI_Script : MonoBehaviour
     private int currentScore = 0;
     private int scoreAddition = 5;
 
+    private void LateUpdate()
+    {
+        if (currentLives <= 0) SceneManager.LoadScene("Menu");
+    }
+
     public void AddPoints() 
     {
         currentScore += scoreAddition;
@@ -25,7 +30,6 @@ public class UI_Script : MonoBehaviour
     public void SubtractLives()
     {
         currentLives -= 1;
-        if (currentLives <= 0) SceneManager.LoadScene("Menu");
         lives.text = currentLives.ToString();
         
     }

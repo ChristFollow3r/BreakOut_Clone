@@ -56,7 +56,6 @@ public class ballMovement : MonoBehaviour
         if (collision.CompareTag("Right")) rb.linearVelocity *= new Vector2 (-1, 1); // I can see this is repeated code but I tried to change it and it gave me errors
         else if (collision.CompareTag("Left")) rb.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
         else if (collision.CompareTag("Top")) rb.linearVelocity *= new Vector2 (1, -1);
-        else if (collision.CompareTag("Thing")) rb.linearVelocity *= new Vector2 (1, -1);
         else if (collision.CompareTag("Middle")) rb.linearVelocity = new Vector2 (0, currentBallSpeed);
         else if (collision.CompareTag("tRight")) rb.linearVelocity = new Vector2 (1, currentBallSpeed);
         else if (collision.CompareTag("tLeft")) rb.linearVelocity = new Vector2 (-1, currentBallSpeed);
