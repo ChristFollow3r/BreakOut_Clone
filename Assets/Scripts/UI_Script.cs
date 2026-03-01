@@ -20,7 +20,7 @@ public class UI_Script : MonoBehaviour
         if (canAdd) StartCoroutine(CRAddPoints());
         if (canSubtract) StartCoroutine(CRSubtractLives());
     }
-    public IEnumerator CRAddPoints()
+    public IEnumerator CRAddPoints() // I know this coroutines are pretty unnecessary but this is in the exam so I might as well do it
     {
         canAdd = false;
         currentScore += scoreAddition;

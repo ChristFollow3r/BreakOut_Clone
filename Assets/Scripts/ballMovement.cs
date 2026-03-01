@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class ballMovement : MonoBehaviour
 {
-    [SerializeField] private GameObject thing;
-    [SerializeField] private GameObject wholeBall;
-    [SerializeField] private Rigidbody2D ball;
+    [SerializeField] private Rigidbody2D rb;
 
-    [SerializeField] private GameObject UIManager;
+    private GameObject thing;
+    private GameObject UIManager;
+    private GameObject BallManager;
 
     private float ballSpeed = 1.3f;
     private float sizeDecrese = 0.2f;
+
     private Vector3 newScale;
 
     private bool layer2 = true;
@@ -17,35 +18,41 @@ public class ballMovement : MonoBehaviour
     private bool layer4 = true;
     private bool layer5 = true;
 
-    private void Start()
+    private void Awake()
     {
         float num1 = Random.Range(3, 5);
         float num2 = Random.Range(3, 5);
+
+        thing = GameObject.Find("Thing");
+        UIManager = GameObject.Find("UIManager");
+        BallManager = GameObject.Find("BallManager");
+
         newScale = thing.transform.localScale;
         newScale -= new Vector3(sizeDecrese,0,0);
 
-        ball.linearVelocity = new Vector2(num1, num2);
+        rb.linearVelocity = new Vector2(num1, num2);
     }
 
     private void Update()
     {
-        if (ball.transform.position.y < -7f)
+        if (rb.transform.position.y < -7f)
         {
             UIManager.GetComponent<UI_Script>().canSubtract = true;
-            Destroy(wholeBall); // This should desttroy the script 
+            BallManager.GetComponent<BallManager>().canSpawn = true;
+            Destroy(gameObject); // This should desttroy the script 
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        float currentBallSpeed = ball.linearVelocity.magnitude;
-        if (collision.CompareTag("Right")) ball.linearVelocity *= new Vector2 (-1, 1); // I can see this is repeated code but I tried to change it and it gave me errors
-        else if (collision.CompareTag("Left")) ball.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
-        else if (collision.CompareTag("Top")) ball.linearVelocity *= new Vector2 (1, -1);
-        else if (collision.CompareTag("Thing")) ball.linearVelocity *= new Vector2 (1, -1);
-        else if (collision.CompareTag("Middle")) ball.linearVelocity = new Vector2 (0, currentBallSpeed); // To do: Decrease raycast length and collider size
-        else if (collision.CompareTag("tRight")) ball.linearVelocity = new Vector2 (1, currentBallSpeed);
-        else if (collision.CompareTag("tLeft")) ball.linearVelocity = new Vector2 (-1, currentBallSpeed);
+        float currentBallSpeed = rb.linearVelocity.magnitude;
+        if (collision.CompareTag("Right")) rb.linearVelocity *= new Vector2 (-1, 1); // I can see this is repeated code but I tried to change it and it gave me errors
+        else if (collision.CompareTag("Left")) rb.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
+        else if (collision.CompareTag("Top")) rb.linearVelocity *= new Vector2 (1, -1);
+        else if (collision.CompareTag("Thing")) rb.linearVelocity *= new Vector2 (1, -1);
+        else if (collision.CompareTag("Middle")) rb.linearVelocity = new Vector2 (0, currentBallSpeed); // To do: Decrease raycast length and collider size
+        else if (collision.CompareTag("tRight")) rb.linearVelocity = new Vector2 (1, currentBallSpeed);
+        else if (collision.CompareTag("tLeft")) rb.linearVelocity = new Vector2 (-1, currentBallSpeed);
 
         if (collision.gameObject.GetComponent<brickLife>())
         {
@@ -55,7 +62,7 @@ public class ballMovement : MonoBehaviour
 
         if (collision.gameObject.layer == 7 && layer2)
         {
-            ball.linearVelocity *= ballSpeed;
+            rb.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
@@ -64,7 +71,7 @@ public class ballMovement : MonoBehaviour
 
         else if (collision.gameObject.layer == 8 && layer3)
         {
-            ball.linearVelocity *= ballSpeed;
+            rb.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
@@ -72,7 +79,7 @@ public class ballMovement : MonoBehaviour
         }
         else if (collision.gameObject.layer == 9 && layer4)
         {
-            ball.linearVelocity *= ballSpeed;
+            rb.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             newScale.x -= sizeDecrese;
             thing.transform.localScale = newScale;
@@ -81,7 +88,7 @@ public class ballMovement : MonoBehaviour
         }
         else if (collision.gameObject.layer == 10 && layer5)
         {
-            ball.linearVelocity *= ballSpeed;
+            rb.linearVelocity *= ballSpeed;
             thing.GetComponent<thingMovement>().thingSpeed += 1.2f;
             thing.transform.localScale = newScale;
             newScale -= new Vector3(sizeDecrese, 0, 0);
