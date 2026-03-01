@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -189,6 +193,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (17)
@@ -295,6 +303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -313,6 +325,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (15)
@@ -366,6 +382,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 21819454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &22355282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 437524981}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &23291499
 GameObject:
@@ -453,6 +474,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (5)
@@ -519,6 +544,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.5506597
@@ -562,7 +595,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1118356613}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &31660341 stripped
 Transform:
@@ -621,6 +657,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -630,6 +670,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 52566016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &55611768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1234706307}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &58764534
 PrefabInstance:
@@ -643,6 +688,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4493403
@@ -686,7 +739,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 290120859}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &58764535 stripped
 Transform:
@@ -745,6 +801,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -763,6 +823,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (1)
@@ -869,6 +933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -891,6 +959,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.4493403
@@ -934,12 +1010,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346600520}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &106410399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 106410398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &108630114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1149880202}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &128442130
 PrefabInstance:
@@ -949,6 +1033,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (2)
@@ -1055,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1073,6 +1165,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (4)
@@ -1139,6 +1235,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5506597
@@ -1182,7 +1286,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1285149647}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &136018070 stripped
 Transform:
@@ -1197,6 +1304,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (3)
@@ -1251,6 +1362,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 159071089}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &170050276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 224999342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &184794574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1303,6 +1419,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1321,6 +1441,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (26)
@@ -1387,6 +1511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.550659
@@ -1430,13 +1562,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 224999347}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &224999343 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 224999342}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &224999347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170050276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &227463545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1489,6 +1638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1551,6 +1704,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1613,6 +1770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1764,6 +1925,149 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.339, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &273777390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1041631890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &273988834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 273988835}
+  - component: {fileID: 273988837}
+  - component: {fileID: 273988836}
+  m_Layer: 5
+  m_Name: Lives
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &273988835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273988834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1716121016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 380.42075, y: 188.2488}
+  m_SizeDelta: {x: 84.4445, y: 29.1111}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &273988836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273988834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '0
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 16
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &273988837
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273988834}
+  m_CullTransparentMesh: 1
 --- !u!1001 &274856987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1772,6 +2076,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (10)
@@ -1826,6 +2134,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 274856987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &290120855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 58764534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &290120859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290120855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &314405839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1838,6 +2165,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.4493403
@@ -1881,7 +2216,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 924135870}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &314405840 stripped
 Transform:
@@ -1940,6 +2278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2002,6 +2344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2189,6 +2535,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (21)
@@ -2255,6 +2605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5506597
@@ -2298,7 +2656,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1899826522}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &341609135 stripped
 Transform:
@@ -2313,6 +2674,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (31)
@@ -2375,6 +2740,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (24)
@@ -2481,6 +2850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2543,6 +2916,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2605,6 +2982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2627,6 +3008,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5506597
@@ -2670,13 +3059,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 437524986}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &437524982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 437524981}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &437524986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22355282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &448501445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2729,6 +3135,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3017,6 +3427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3079,6 +3493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3097,6 +3515,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (6)
@@ -3203,6 +3625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3225,6 +3651,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.550659
@@ -3268,7 +3702,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2130147629}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &565134385 stripped
 Transform:
@@ -3287,6 +3724,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4493403
@@ -3330,12 +3775,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1253044838}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &569671785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 569671784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &578190016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1624062992}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &585992595
 PrefabInstance:
@@ -3345,6 +3798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (30)
@@ -3407,6 +3864,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (29)
@@ -3513,6 +3974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3531,6 +3996,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (31)
@@ -3593,6 +4062,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (21)
@@ -3647,6 +4120,144 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 626309745}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &629410734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629410735}
+  - component: {fileID: 629410737}
+  - component: {fileID: 629410736}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &629410735
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629410734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1716121016}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -309.75507, y: 188.2488}
+  m_SizeDelta: {x: 84.4445, y: 29.1111}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &629410736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629410734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '0
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 28
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &629410737
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629410734}
+  m_CullTransparentMesh: 1
 --- !u!1001 &637721351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3699,6 +4310,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3717,6 +4332,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (26)
@@ -3783,6 +4402,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.55065966
@@ -3826,12 +4453,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1866906705}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &671859114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 671859113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &672155284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1066970481}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &680185363
 PrefabInstance:
@@ -3841,6 +4476,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (19)
@@ -3947,6 +4586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3965,6 +4608,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (2)
@@ -4027,6 +4674,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (20)
@@ -4267,6 +4918,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4276,6 +4931,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 709999211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &724110055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1819442542}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &724335826
 GameObject:
@@ -4374,6 +5034,11 @@ Transform:
   - {fileID: 1264562189}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &746014622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1040193054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &763510051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4386,6 +5051,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5506597
@@ -4429,7 +5102,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1512610238}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &763510052 stripped
 Transform:
@@ -4444,6 +5120,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (17)
@@ -4506,6 +5186,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (13)
@@ -4612,6 +5296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4674,6 +5362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4683,6 +5375,16 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 789461859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &800595290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1029963219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &802735645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 918251774}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &809885776
 PrefabInstance:
@@ -4736,6 +5438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4798,6 +5504,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4816,6 +5526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (15)
@@ -4870,6 +5584,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 832337336}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &836680061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1331775958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &838804563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4878,6 +5597,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (9)
@@ -4984,6 +5707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5002,6 +5729,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (23)
@@ -5064,6 +5795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (16)
@@ -5126,6 +5861,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (8)
@@ -5192,6 +5931,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4493403
@@ -5235,13 +5982,49 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 918251779}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &918251775 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 918251774}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &918251779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802735645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
+--- !u!1 &924135866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 314405839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &924135870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924135866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &950433907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5250,6 +6033,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (27)
@@ -5312,6 +6099,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (10)
@@ -5418,6 +6209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5436,6 +6231,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (12)
@@ -5542,6 +6341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5560,6 +6363,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (12)
@@ -5622,6 +6429,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (14)
@@ -5684,6 +6495,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (22)
@@ -5746,6 +6561,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (16)
@@ -5852,6 +6671,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5874,6 +6697,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.550659
@@ -5917,12 +6748,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1029963224}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1029963220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1029963219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1029963224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800595290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
+--- !u!1 &1031074731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1392256536}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1034354038
 PrefabInstance:
@@ -5932,6 +6785,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (18)
@@ -5998,6 +6855,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5506597
@@ -6041,13 +6906,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1040193059}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1040193055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1040193054}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1040193059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746014622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1041631890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6060,6 +6942,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4493403
@@ -6103,13 +6993,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1041631895}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1041631891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1041631890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1041631895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273777390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1059278920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6118,6 +7025,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (28)
@@ -6224,6 +7135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6246,6 +7161,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5506597
@@ -6289,13 +7212,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1066970486}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1066970482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1066970481}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1066970486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672155284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1 &1068152640
 GameObject:
   m_ObjectHideFlags: 0
@@ -6381,8 +7321,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.88, y: -2.1, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6475,6 +7415,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5506597
@@ -6518,7 +7466,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1934409814}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1097897696 stripped
 Transform:
@@ -6577,6 +7528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6639,6 +7594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6649,6 +7608,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1113149293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1118356609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 31660340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1118356613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118356609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1120350909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6661,6 +7639,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.550659
@@ -6704,7 +7690,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1290445646}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1120350910 stripped
 Transform:
@@ -6723,6 +7712,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.44934034
@@ -6766,13 +7763,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1149880207}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1149880203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1149880202}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1149880207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108630114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1 &1168354881
 GameObject:
   m_ObjectHideFlags: 0
@@ -6864,6 +7878,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (6)
@@ -6918,6 +7936,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 1202495897}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1216713122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 6164882026321121937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1234706307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6930,6 +7953,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5506597
@@ -6973,13 +8004,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234706312}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1234706308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1234706307}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1234706312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55611768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1239956332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6992,6 +8040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.550659
@@ -7035,7 +8091,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1919825988}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1239956333 stripped
 Transform:
@@ -7094,6 +8153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7156,6 +8219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7166,6 +8233,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1252737204}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1253044834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 569671784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1253044838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253044834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1264562188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7218,6 +8304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7236,6 +8326,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (7)
@@ -7298,6 +8392,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (25)
@@ -7360,6 +8458,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (24)
@@ -7414,6 +8516,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 1281551975}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1285149643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 136018069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1285149647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285149643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1287064194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7466,6 +8587,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7476,6 +8601,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 1287064194}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1290445642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1120350909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1290445646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290445642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1293474183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7488,6 +8632,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.55065966
@@ -7531,7 +8683,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1505941237}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1293474184 stripped
 Transform:
@@ -7546,6 +8701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (30)
@@ -7608,6 +8767,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (13)
@@ -7714,6 +8877,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7736,6 +8903,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.5506597
@@ -7779,13 +8954,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1331775963}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1331775959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1331775958}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1331775963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836680061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1332195647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7838,6 +9030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7848,6 +9044,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1332195647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1346600516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 106410398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346600520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346600516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1391820162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7900,6 +9115,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7922,6 +9141,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.550659
@@ -7965,13 +9192,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1392256541}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1392256537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1392256536}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1392256541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031074731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1404073214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7984,6 +9228,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.44934034
@@ -8027,12 +9279,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1419405539}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1404073215 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1404073214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1405548686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1516047409}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1406546561
 PrefabInstance:
@@ -8086,6 +9346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8104,6 +9368,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (5)
@@ -8158,6 +9426,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 1412074794}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1419405535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1404073214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1419405539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419405535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1435297590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8166,6 +9453,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (7)
@@ -8228,6 +9519,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (20)
@@ -8290,6 +9585,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (19)
@@ -8352,6 +9651,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (25)
@@ -8458,6 +9761,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8480,6 +9787,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5506597
@@ -8523,7 +9838,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2009370347}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1480789595 stripped
 Transform:
@@ -8582,6 +9900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8592,6 +9914,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1502157350}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1505941233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1293474183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1505941237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505941233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
+--- !u!1 &1512610234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 763510051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1512610238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512610234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1514943255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8644,6 +10004,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8666,6 +10030,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5506597
@@ -8709,13 +10081,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1516047414}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1516047410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1516047409}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1516047414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405548686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1 &1527799837
 GameObject:
   m_ObjectHideFlags: 0
@@ -8902,6 +10291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8964,6 +10357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8982,6 +10379,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (22)
@@ -9088,6 +10489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9106,6 +10511,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (11)
@@ -9168,6 +10577,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (3)
@@ -9234,6 +10647,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5506597
@@ -9277,13 +10698,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1624062997}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1624062993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1624062992}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1624062997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578190016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1645911815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9292,6 +10730,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (9)
@@ -9398,6 +10840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9460,6 +10906,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9470,6 +10920,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 1668013697}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1686737257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686737260}
+  - component: {fileID: 1686737259}
+  - component: {fileID: 1686737258}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1686737258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686737257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1686737259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686737257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1686737260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686737257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1692997120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9522,6 +11051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9584,6 +11117,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9594,6 +11131,109 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 1702923875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716121012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716121016}
+  - component: {fileID: 1716121015}
+  - component: {fileID: 1716121014}
+  - component: {fileID: 1716121013}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1716121013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716121012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1716121014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716121012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1716121015
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716121012}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1716121016
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716121012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 629410735}
+  - {fileID: 273988835}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1720648127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9646,6 +11286,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9708,6 +11352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9770,6 +11418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9788,6 +11440,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (23)
@@ -9850,6 +11506,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (11)
@@ -9916,6 +11576,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.5506597
@@ -9959,7 +11627,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2106347671}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1775310029 stripped
 Transform:
@@ -10041,6 +11712,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4493403
@@ -10084,13 +11763,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819442547}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!4 &1819442543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 1819442542}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1819442547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724110055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1 &1822637662
 GameObject:
   m_ObjectHideFlags: 0
@@ -10162,6 +11858,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (27)
@@ -10224,6 +11924,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (1)
@@ -10278,6 +11982,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 1851797019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1866906701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 671859113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866906705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866906701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1876960607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10330,6 +12053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10340,6 +12067,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1876960607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1899826518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 341609134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1899826522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899826518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1900871395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10348,6 +12094,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (14)
@@ -10454,6 +12204,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10464,6 +12218,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2832099747152904846, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
   m_PrefabInstance: {fileID: 1913774837}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1919825984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1239956332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919825988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919825984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1923299219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10472,6 +12245,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (28)
@@ -10526,6 +12303,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 1923299219}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1934409810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1097897695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934409814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934409810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &1938430389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10578,6 +12374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10588,6 +12388,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 899234283752574716, guid: af7042c1040d6624593c7efdb800202b, type: 3}
   m_PrefabInstance: {fileID: 1938430389}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1950001999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1950002001}
+  - component: {fileID: 1950002000}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1950002000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950001999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
+--- !u!4 &1950002001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950001999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 389.87943, y: 293.42154, z: 2.1975105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1980977944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10596,6 +12442,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (29)
@@ -10650,6 +12500,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 1980977944}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2009370343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1480789594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2009370347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009370343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &2022839856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10702,6 +12571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10720,6 +12593,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (18)
@@ -10826,6 +12703,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10888,6 +12769,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10906,6 +12791,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick (8)
@@ -10960,6 +12849,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 621993014310215946, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
   m_PrefabInstance: {fileID: 2091536605}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2106347667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 1775310028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2106347671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106347667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &2124080117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10968,6 +12876,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick (4)
@@ -11022,6 +12934,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4005387928713661707, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
   m_PrefabInstance: {fileID: 2124080117}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2130147625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+  m_PrefabInstance: {fileID: 565134384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2130147629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130147625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &2136479080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11074,6 +13005,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11146,6 +13081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5134192037567689446, guid: dffd8bcd09ff51541938956ba4e78ddb, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11161,6 +13100,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
   m_PrefabInstance: {fileID: 6164882026321121937}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4983185468602937135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216713122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da87bc371a84fc40a0802d96e381ddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 629410736}
+  canAdd: 1
 --- !u!1001 &6164882026321121937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11173,6 +13126,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: fBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 629410736}
+    - target: {fileID: 6807307064627485797, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 8662940208697863348, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4493403
@@ -11216,7 +13177,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4668034058183201856, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4983185468602937135}
   m_SourcePrefab: {fileID: 100100000, guid: 5c010650b71d4ed429d3952d44129703, type: 3}
 --- !u!1001 &7959258779244580975
 PrefabInstance:
@@ -11226,6 +13190,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328406080}
     m_Modifications:
+    - target: {fileID: -518109832273017860, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 131970514164999594, guid: 2a9617660858c7c4a98eb7103362f772, type: 3}
       propertyPath: m_Name
       value: sBrick
@@ -11327,6 +13295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fvBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 6688984736181677672, guid: af7042c1040d6624593c7efdb800202b, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11340,6 +13312,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 259033626}
     m_Modifications:
+    - target: {fileID: -2104442476823710952, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
+      propertyPath: UIManager
+      value: 
+      objectReference: {fileID: 1950001999}
     - target: {fileID: 3037600076028758585, guid: c202e651107ffd54c83f77fb460bc278, type: 3}
       propertyPath: m_Name
       value: tBrick
@@ -11402,3 +13378,6 @@ SceneRoots:
   - {fileID: 259033626}
   - {fileID: 732053280}
   - {fileID: 1822637663}
+  - {fileID: 1716121016}
+  - {fileID: 1686737260}
+  - {fileID: 1950002001}

@@ -1,0 +1,10 @@
+.text {
+    font-size: 32px;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    align-self: auto;
+    align-items: flex-start;
+    width: 100px;
+    align-content: auto;
+    justify-content: flex-start;
+}
