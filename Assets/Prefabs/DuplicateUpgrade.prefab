@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2591837115325518527}
   - component: {fileID: 7810057455611195149}
   - component: {fileID: 4536209251461923916}
-  - component: {fileID: 4543064184148231397}
+  - component: {fileID: 3953716647730425287}
   m_Layer: 0
   m_Name: DuplicateUpgrade
   m_TagString: duplicateUpgrade
@@ -167,7 +167,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &4543064184148231397
+--- !u!114 &3953716647730425287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2227580983432485732}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eed9612710c62647ae7215857408673, type: 3}
+  m_Script: {fileID: 11500000, guid: 70aba6d8480e1ad4992d0f71ac972e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ball: {fileID: 1623538499454628888, guid: d6f0d7383d831bb4a887b3b60d2e82be, type: 3}

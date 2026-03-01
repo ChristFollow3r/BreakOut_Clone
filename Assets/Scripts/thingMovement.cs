@@ -4,7 +4,7 @@ public class thingMovement : MonoBehaviour
 {
     [SerializeField] private GameObject thing;
 
-    private InputSystem_Actions actions;
+    public InputSystem_Actions actions;
 
     private Vector2 movement;
 
