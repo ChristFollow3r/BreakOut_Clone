@@ -18,6 +18,7 @@ public class duplicateAllBalls : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Thing"))
         {
+            balls = null;
             balls = GameObject.FindGameObjectsWithTag("Ball");
             foreach (GameObject x in balls)
             {

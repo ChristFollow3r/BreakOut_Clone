@@ -13,10 +13,10 @@ public class ballMovement : MonoBehaviour
 
     private Vector3 newScale;
 
-    private bool layer2 = true;
-    private bool layer3 = true;
-    private bool layer4 = true;
-    private bool layer5 = true;
+    private bool layer2 = false;
+    private bool layer3 = false;
+    private bool layer4 = false;
+    private bool layer5 = false;
 
     public bool isFromUpgrade = false; // This. Holy moly...
 
@@ -29,23 +29,31 @@ public class ballMovement : MonoBehaviour
         UIManager = GameObject.Find("UIManager");
         BallManager = GameObject.Find("BallManager");
 
-        newScale = thing.transform.localScale;
-        newScale -= new Vector3(sizeDecrese,0,0);
+        newScale = new Vector3(sizeDecrese, 0, 0);
 
         if (!isFromUpgrade) rb.linearVelocity = new Vector2(num1, num2);
+
+
     }
 
     private void Update()
     {
-        if (rb.transform.position.y < -7f && !isFromUpgrade)
+        if (rb.transform.position.y < -7f)
         {
             UIManager.GetComponent<UI_Script>().SubtractLives();
             if (!isFromUpgrade)
             {
                 BallManager.GetComponent<BallManager>().canSpawn = true;
-                thing.transform.localScale = new Vector3(1.5f, 0.2f, 0f);
             }
             Destroy(gameObject); // This should destroy the ball and the script and everything
+        }
+
+        if (!isFromUpgrade)
+        {
+            layer2 = true;
+            layer3 = true;
+            layer4 = true;
+            layer5 = true;
         }
     }
 
@@ -69,32 +77,31 @@ public class ballMovement : MonoBehaviour
 
         if (collision.gameObject.GetComponent<ballMovement>() == null) return;
 
-        if (collision.gameObject.layer == 7 && layer2 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true) // Some serious trauma
+        if (collision.gameObject.layer == 7 && layer2) // Some serious trauma
         {
             rb.linearVelocity *= ballSpeed;
             thing.transform.localScale = newScale;
-            newScale -= new Vector3(sizeDecrese, 0, 0);
             layer2 = false;
         }
 
-        else if (collision.gameObject.layer == 8 && layer3 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
+        else if (collision.gameObject.layer == 8 && layer3)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.transform.localScale = newScale;
-            newScale -= new Vector3(sizeDecrese, 0, 0);
+            thing.transform.localScale -= newScale;
+            //newScale -= new Vector3(sizeDecrese, 0, 0);
             layer3 = false;
         }
-        else if (collision.gameObject.layer == 9 && layer4 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
+        else if (collision.gameObject.layer == 9 && layer4)
         {
             rb.linearVelocity *= ballSpeed;
-            newScale.x -= sizeDecrese;
-            thing.transform.localScale = newScale;
+            //newScale.x -= sizeDecrese;
+            thing.transform.localScale -= newScale;
             layer4 = false;
         }
-        else if (collision.gameObject.layer == 10 && layer5 && collision.gameObject.GetComponent<ballMovement>().isFromUpgrade == true)
+        else if (collision.gameObject.layer == 10 && layer5)
         {
             rb.linearVelocity *= ballSpeed;
-            thing.transform.localScale = newScale;
+            thing.transform.localScale -= newScale;
             layer5 = false;
         }
     }
