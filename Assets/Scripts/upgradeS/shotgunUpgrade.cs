@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class shotgunUpgrade : MonoBehaviour
@@ -19,10 +20,19 @@ public class shotgunUpgrade : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Thing"))
         {
+            bool direction = true;
+
             for (int i = 0; i < 3; i++)
             {
-                GameObject newBall = Instantiate(ball, new Vector3(thing.transform.position.x, thing.transform.position.y + 0.3f, 0), Quaternion.identity); // + 0.3 so it doesnt spawn right where the thing is
+                int num1 = Random.Range(4, 6);
+                int num2 = Random.Range(4, 6);
+                float num3 = Random.Range(0f, 1.5f);
+
+                GameObject newBall = Instantiate(ball, new Vector3(thing.transform.position.x +  num3, thing.transform.position.y + 0.1f, 0), Quaternion.identity); // + 0.3 so it doesnt spawn right where the thing is
                 newBall.GetComponent<ballMovement>().isFromUpgrade = true; // This is crucial so that when this balls die then don't spawn new balls
+                num1 = direction == true ? num1 : -num1;
+                direction = !direction;
+                newBall.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(num1, num2);
                 UIManager.GetComponent<UI_Script>().AddPoints();
                 UIManager.GetComponent<UI_Script>().AddLives();
             }

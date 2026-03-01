@@ -32,12 +32,12 @@ public class ballMovement : MonoBehaviour
         newScale = thing.transform.localScale;
         newScale -= new Vector3(sizeDecrese,0,0);
 
-        rb.linearVelocity = new Vector2(num1, num2);
+        if (!isFromUpgrade) rb.linearVelocity = new Vector2(num1, num2);
     }
 
     private void Update()
     {
-        if (rb.transform.position.y < -7f)
+        if (rb.transform.position.y < -7f && !isFromUpgrade)
         {
             UIManager.GetComponent<UI_Script>().SubtractLives();
             if (!isFromUpgrade)
