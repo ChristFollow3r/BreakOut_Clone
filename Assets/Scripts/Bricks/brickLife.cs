@@ -18,7 +18,7 @@ public class brickLife : MonoBehaviour
         colldier = GetComponent<BoxCollider2D>();
     }
     
-    public void ThisIsDrivingMeNuts()
+    public void ThisIsDrivingMeNuts() // When a brick dies it has a chance of spawning one of three upgrades
     {
         if (lives <= 0)
         {
@@ -28,10 +28,10 @@ public class brickLife : MonoBehaviour
             else if (chance > 10 && chance <= 20) Instantiate(shotgunUpgrade, transform.position, Quaternion.identity);
             else if (chance > 20 && chance <= 30) Instantiate(plentyBallsUpgrade, transform.position, Quaternion.identity);
 
-            Destroy(sprite);
-            Destroy(colldier);
-            Destroy(gameObject);
-            UIManager.GetComponent<UI_Script>().AddPoints();
+            Destroy(sprite); // I destroy the sprite, the collider and the gameobject (I don't remember why I didnt just destroy he gameobject)
+            Destroy(colldier); // Porbably has something to do with the ball instantiaitng traumatic experience
+            UIManager.GetComponent<UI_Script>().AddPoints(); // Add points on dead thing (I just changed this to be before the destroy game object)
+            Destroy(gameObject);                             // Truly a mistery why this was working before this change
         }
     }
 

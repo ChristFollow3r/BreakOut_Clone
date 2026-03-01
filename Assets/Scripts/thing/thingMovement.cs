@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class thingMovement : MonoBehaviour
+public class thingMovement : MonoBehaviour // I genually don't know how to call thins thing in english so throughout he program it'll be called "THING"
 {
     [SerializeField] private GameObject thing;
 
@@ -15,9 +15,8 @@ public class thingMovement : MonoBehaviour
     private void Start()
     {
         // I dont know how to explain this but it's pretty self explanatory
-        actions = new InputSystem_Actions();
-        // This enables it
-        actions.Player.Enable();
+        actions = new InputSystem_Actions(); // It's from the new input system (apparently not the best way to use it, but it works just fine)
+        actions.Player.Enable(); // This enables it
     }
 
     private void Update()
@@ -45,9 +44,9 @@ public class thingMovement : MonoBehaviour
         RaycastHit2D lHit = Physics2D.Raycast(thing.transform.position, Vector2.left, rayLength); // This shoots a ray towards the left of the thing
         RaycastHit2D rHit = Physics2D.Raycast(thing.transform.position, Vector2.right, rayLength); // This shoots a ray towards the right of the thing
 
-        // This basically acts as a collider. The only difference is that this wont allow the thing to clip through the ball.
+        // This basically acts as a collider. The only difference is that this wont allow the thing to clip through the wall.
 
-        if (lHit) thing.transform.position = safePosition;
+        if (lHit) thing.transform.position = safePosition; // If it hits it inmediatly teleports it to the last position it didn't hit
         if (rHit) thing.transform.position = safePosition;
     }
 

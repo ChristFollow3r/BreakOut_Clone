@@ -14,7 +14,7 @@ public class BallManager : MonoBehaviour
     private void Start()
     {
         spawnVector = new Vector3(0f, -2f, 0f);
-        UIManager = GameObject.Find("UIManager");
+        UIManager = GameObject.Find("UIManager"); // The gameobject in the scene that controlls the game UI
     }
     void Update()
     {
@@ -22,16 +22,16 @@ public class BallManager : MonoBehaviour
 
         if (canSpawn == true)
         {
-            Instantiate(ball, spawnVector, Quaternion.identity);
+            Instantiate(ball, spawnVector, Quaternion.identity); // Every ball that doesn't come from an upgrade spawns exacly at (0,-2,0)
             Debug.Log("Ball spawned");
-            canSpawn = false;
+            canSpawn = false; // reset so it doesn't keep spawnging balls
         }
     }
 
-    public void SpawnOneBallHopefully()
+    public void SpawnOneBallHopefully() // Reminesence of a nightmare
     {
-        GameObject upgradBall = Instantiate(ball, spawnRandomVector, Quaternion.identity);
-        UIManager.GetComponent<UI_Script>().AddLives();
-        upgradBall.GetComponent<ballMovement>().isFromUpgrade = true;
+        GameObject upgradBall = Instantiate(ball, spawnRandomVector, Quaternion.identity); // Spawn balls in a random x position wiht a fixedy position
+        UIManager.GetComponent<UI_Script>().AddLives(); // In theory every new ball adds a live to the counter (it doesn't).
+        upgradBall.GetComponent<ballMovement>().isFromUpgrade = true; // This is super important so instantited balls don't instantiate balls when they are destroyed
     }
 }
