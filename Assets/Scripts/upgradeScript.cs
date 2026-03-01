@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class upgradeScript : MonoBehaviour
 {
-    private BallManager ballManager;
+    private GameObject ballManager;
     private int chance;
 
     private void Start()
     {
+        ballManager = GameObject.Find("BallManager");
+        Debug.Log("One spawned");
         chance = Random.Range(1, 101);
         Destroy(gameObject, 5f);
     }
@@ -14,7 +16,8 @@ public class upgradeScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Thing"))
         {
-            if (chance >= 70) ballManager.GetComponent<BallManager>().upgrade = true;
+            if (chance >= 70) ballManager.GetComponent<BallManager>().SpawnOneBallHopefully();
+            Debug.Log("Entered");
             Destroy(gameObject); // This way I dont spawn more than one ball
         }
         

@@ -18,6 +18,8 @@ public class ballMovement : MonoBehaviour
     private bool layer4 = true;
     private bool layer5 = true;
 
+    public bool isFromUpgrade = false; // This. Holy moly...
+
     private void Awake()
     {
         float num1 = Random.Range(3, 5);
@@ -38,15 +40,16 @@ public class ballMovement : MonoBehaviour
         if (rb.transform.position.y < -7f)
         {
             UIManager.GetComponent<UI_Script>().SubtractLives();
-            BallManager.GetComponent<BallManager>().canSpawn = true;
+            if (!isFromUpgrade) BallManager.GetComponent<BallManager>().canSpawn = true;
             thing.transform.localScale = new Vector3(1.5f, 0.2f, 0f);
-            Destroy(gameObject); // This should desttroy the script 
+            Destroy(gameObject); // This should destroy the ball and the script and everything
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         float currentBallSpeed = rb.linearVelocity.magnitude;
+
         if (collision.CompareTag("Right")) rb.linearVelocity *= new Vector2 (-1, 1); // I can see this is repeated code but I tried to change it and it gave me errors
         else if (collision.CompareTag("Left")) rb.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
         else if (collision.CompareTag("Top")) rb.linearVelocity *= new Vector2 (1, -1);
@@ -59,7 +62,7 @@ public class ballMovement : MonoBehaviour
         {
             collision.gameObject.GetComponent<brickLife>().lives--; // This is triggering multiple times. It's a know bug. I'm not going to fix it.
             collision.gameObject.GetComponent<brickLife>().ThisIsDrivingMeNuts();
-            Debug.Log(collision.gameObject.GetComponent<brickLife>().lives--);
+            //Debug.Log(collision.gameObject.GetComponent<brickLife>().lives--);
         }
 
         if (collision.gameObject.layer == 7 && layer2)

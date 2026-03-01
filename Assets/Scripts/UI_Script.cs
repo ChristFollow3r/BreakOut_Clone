@@ -7,7 +7,6 @@ public class UI_Script : MonoBehaviour
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lives;
 
-
     private int currentLives = 3;
     private int currentScore = 0;
     private int scoreAddition = 5;
