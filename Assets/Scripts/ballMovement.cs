@@ -28,10 +28,12 @@ public class ballMovement : MonoBehaviour
     {
         float currentBallSpeed = ball.linearVelocity.magnitude;
         if (collision.CompareTag("Right")) ball.linearVelocity *= new Vector2 (-1, 1); // I can see this is repeated code but I tried to change it and it gave me errors
-        else if (collision.CompareTag("Left")) ball.linearVelocity *= new Vector2(-1, 1); // So it'll stay like this...
-        else if (collision.CompareTag("Top")) ball.linearVelocity *= new Vector2(1, -1);
-        else if (collision.CompareTag("Thing")) ball.linearVelocity *= new Vector2(1, -1);
-        else if (collision.CompareTag("Middle")) ball.linearVelocity = new Vector2(0, currentBallSpeed); // To do: Decrease raycast length and collider size
+        else if (collision.CompareTag("Left")) ball.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
+        else if (collision.CompareTag("Top")) ball.linearVelocity *= new Vector2 (1, -1);
+        else if (collision.CompareTag("Thing")) ball.linearVelocity *= new Vector2 (1, -1);
+        else if (collision.CompareTag("Middle")) ball.linearVelocity = new Vector2 (0, currentBallSpeed); // To do: Decrease raycast length and collider size
+        else if (collision.CompareTag("tRight")) ball.linearVelocity = new Vector2 (1, currentBallSpeed);
+        else if (collision.CompareTag("tLeft")) ball.linearVelocity = new Vector2 (-1, currentBallSpeed);
 
         if (collision.gameObject.GetComponent<brickLife>())
         {
