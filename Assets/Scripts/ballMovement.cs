@@ -40,8 +40,11 @@ public class ballMovement : MonoBehaviour
         if (rb.transform.position.y < -7f)
         {
             UIManager.GetComponent<UI_Script>().SubtractLives();
-            if (!isFromUpgrade) BallManager.GetComponent<BallManager>().canSpawn = true;
-            thing.transform.localScale = new Vector3(1.5f, 0.2f, 0f);
+            if (!isFromUpgrade)
+            {
+                BallManager.GetComponent<BallManager>().canSpawn = true;
+                thing.transform.localScale = new Vector3(1.5f, 0.2f, 0f);
+            }
             Destroy(gameObject); // This should destroy the ball and the script and everything
         }
     }
@@ -54,7 +57,7 @@ public class ballMovement : MonoBehaviour
         else if (collision.CompareTag("Left")) rb.linearVelocity *= new Vector2 (-1, 1); // So it'll stay like this...
         else if (collision.CompareTag("Top")) rb.linearVelocity *= new Vector2 (1, -1);
         else if (collision.CompareTag("Thing")) rb.linearVelocity *= new Vector2 (1, -1);
-        else if (collision.CompareTag("Middle")) rb.linearVelocity = new Vector2 (0, currentBallSpeed); // To do: Decrease raycast length and collider size
+        else if (collision.CompareTag("Middle")) rb.linearVelocity = new Vector2 (0, currentBallSpeed);
         else if (collision.CompareTag("tRight")) rb.linearVelocity = new Vector2 (1, currentBallSpeed);
         else if (collision.CompareTag("tLeft")) rb.linearVelocity = new Vector2 (-1, currentBallSpeed);
 
@@ -85,14 +88,12 @@ public class ballMovement : MonoBehaviour
             rb.linearVelocity *= ballSpeed;
             newScale.x -= sizeDecrese;
             thing.transform.localScale = newScale;
-            newScale -= new Vector3(sizeDecrese, 0, 0);
             layer4 = false;
         }
         else if (collision.gameObject.layer == 10 && layer5)
         {
             rb.linearVelocity *= ballSpeed;
             thing.transform.localScale = newScale;
-            newScale -= new Vector3(sizeDecrese, 0, 0);
             layer5 = false;
         }
     }
