@@ -24,8 +24,8 @@ public class UI_Script : MonoBehaviour
     private void LateUpdate()
     {
         if (currentLives <= 0 && balls.Length == 0) { // Super dirty solution. I have no fucking clue how to fix the lives counter problem.
-            SceneManager.LoadScene("Menu");
-            thing.GetComponent<thingMovement>().actions.Disable();
+            SceneManager.LoadScene("Menu"); // Load the menu scene if the player dies
+            thing.GetComponent<thingMovement>().actions.Disable(); // And I disable the input system actions so it doesn't give errors about memory leaks
         }
     }
 
@@ -34,17 +34,17 @@ public class UI_Script : MonoBehaviour
         balls = GameObject.FindGameObjectsWithTag("Ball");
     }
 
-    public void AddPoints() 
+    public void AddPoints() // This adds points and displays it in the respective UI text
     {
         currentScore += scoreAddition;
         score.text = currentScore.ToString();
     }
-    public void AddLives()
+    public void AddLives() // This adds lives and displays it in the respective UI text
     {
         currentLives += 1;
         lives.text = currentLives.ToString();
     }
-    public void SubtractLives()
+    public void SubtractLives() // This subtracts lives and displays it in the respective UI text
     {
         currentLives -= 1;
         lives.text = currentLives.ToString();
